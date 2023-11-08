@@ -1,0 +1,80 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    height: 100%;
+}
+
+body
+{
+ border: 0px solid whitesmoke(238, 234, 234);
+    padding: 12px;
+
+}
+.entire-section
+{
+    border: 0px solid rgb(15, 15, 15);
+}
+
+header
+{
+    border: 0px solid rgb(12, 12, 12);
+}
+
+.upper
+{
+    border: rgb(12, 12, 12) solid 4px;
+    display: flex;
+    padding: 5px;
+}
+
+.paragraph
+{
+    margin-left: 25%;
+}
+
+
+.lower
+{
+    border: 0px solid whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+main
+{
+    border: 0px solid whitesmoke;
+    padding: 10px;
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Rotate first bar */
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {opacity: 0;}
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
